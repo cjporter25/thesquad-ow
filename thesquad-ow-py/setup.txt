@@ -2,6 +2,7 @@
 - Created folder named thesquad-ow
 - Added a file called main.py
 - Added a requirements file
+- Added a .gitignore file using gitignore.io
 
 ****Created Virtual Environment****
 - (While in the primary directory) - "python -m venv [pref_name]"
@@ -37,3 +38,14 @@
           options.
     - COMMAND:
         - "pip install pytesseract"
+- OPENCV (Python)
+    - opencv-python is the Python binding for OpenCV (Open Source Computer Vision Library), 
+    which is a powerful library for computer vision and image processing tasks. Some of the 
+    - Key Features:
+        - Image Processing: Advanced image processing functions like filtering, edge 
+          detection, and morphological operations.
+        - Computer Vision: Tools for object detection, face recognition, motion tracking, 
+          and more.
+        - Machine Learning: Algorithms for machine learning and deep learning, including 
+          integration with TensorFlow and PyTorch. Video Capture: Functions to capture and 
+          process video streams from cameras and files.
