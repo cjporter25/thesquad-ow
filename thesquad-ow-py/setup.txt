@@ -1,0 +1,39 @@
+****Initial Folder and File Setup****
+- Created folder named thesquad-ow
+- Added a file called main.py
+- Added a requirements file
+
+****Created Virtual Environment****
+- (While in the primary directory) - "python -m venv [pref_name]"
+    - I used "python -m venv .venv"
+- To activate environment, I used:
+    - .venv/Scripts/Activate.ps1
+- Verify interpreter by using "python --version" or:
+    - "ctrl + shift + p"
+    - Type in "python"
+    - Select Python interpreter and choose the .venv
+
+
+****Installed Dependencies****
+- PILLOW
+    - Pillow is a Python Imaging Library (PIL) fork that adds image processing 
+    capabilities to your Python interpreter. It allows you to open, manipulate, 
+    and save many different image file formats.
+    - Key Features:
+        - Image Processing: Crop, resize, rotate, and apply filters to images.
+        - File Formats: Support for many image file formats like PNG, JPEG, BMP, 
+          GIF, etc.
+        - Image Drawing: Draw text, lines, shapes, and more on images.
+    - COMMAND:
+        - "pip install Pillow"
+- PYTESSERACT
+    - pytesseract is a Python wrapper for Google's Tesseract-OCR Engine. Tesseract 
+    is an *optical character recognition* (OCR) tool for recognizing text in images. 
+    - Key Features: 
+        - OCR: Extract text from images, including support for multiple languages.
+        - Integration: Easy integration with Pillow and OpenCV for pre-processing 
+          images before OCR.
+        - Extensibility: Ability to customize OCR behavior using Tesseract's configuration 
+          options.
+    - COMMAND:
+        - "pip install pytesseract"
